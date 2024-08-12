@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Stock Price Retriver</h1>
+        <div class="input-container">
+            <input type="text" id="ticker" placeholder="Enter ticker symbol here">
+            <input type="date" id="date">
+            <button onclick="getStockPrice()">Get Closing Price</button>
+        </div>
+        <p id="result"></p>
+        <div id="loading" style="display: none;">Loading...</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
