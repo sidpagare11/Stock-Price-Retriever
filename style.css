@@ -13,7 +13,7 @@ body {
 
 /* Container for the entire app */
 .app-container {
-    background-color: #2c2f33; /* Slightly lighter dark grey */
+    background-color: #2c2f33; 
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-    background-color: #727cda; /* Darker blue on hover */
+    background-color: #727cda; /* Darker blue when hovering */
 }
 
 /* Result and loading text */
